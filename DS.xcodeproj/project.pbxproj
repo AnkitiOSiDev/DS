@@ -15,6 +15,10 @@
 		BCAED56927513DD600054B77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCAED56727513DD600054B77 /* LaunchScreen.storyboard */; };
 		BCAED57427513DD600054B77 /* DSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAED57327513DD600054B77 /* DSTests.swift */; };
 		BCAED57F27513DD600054B77 /* DSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAED57E27513DD600054B77 /* DSUITests.swift */; };
+		BCAED58E2752618F00054B77 /* Linkedlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAED58D2752618F00054B77 /* Linkedlist.swift */; };
+		BCAED59027551A5100054B77 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAED58F27551A5000054B77 /* Stack.swift */; };
+		BCAED5922755266600054B77 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAED5912755266600054B77 /* Queue.swift */; };
+		BCAED594275534EE00054B77 /* DoubleLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAED593275534EE00054B77 /* DoubleLinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		BCAED57A27513DD600054B77 /* DSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCAED57E27513DD600054B77 /* DSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSUITests.swift; sourceTree = "<group>"; };
 		BCAED58027513DD600054B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCAED58D2752618F00054B77 /* Linkedlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linkedlist.swift; sourceTree = "<group>"; };
+		BCAED58F27551A5000054B77 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		BCAED5912755266600054B77 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		BCAED593275534EE00054B77 /* DoubleLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleLinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				BCAED55C27513DD500054B77 /* AppDelegate.swift */,
 				BCAED55E27513DD500054B77 /* SceneDelegate.swift */,
 				BCAED56027513DD500054B77 /* ViewController.swift */,
+				BCAED58D2752618F00054B77 /* Linkedlist.swift */,
+				BCAED593275534EE00054B77 /* DoubleLinkedList.swift */,
+				BCAED58F27551A5000054B77 /* Stack.swift */,
+				BCAED5912755266600054B77 /* Queue.swift */,
 				BCAED56227513DD500054B77 /* Main.storyboard */,
 				BCAED56527513DD600054B77 /* Assets.xcassets */,
 				BCAED56727513DD600054B77 /* LaunchScreen.storyboard */,
@@ -138,6 +150,7 @@
 				BCAED55527513DD400054B77 /* Sources */,
 				BCAED55627513DD400054B77 /* Frameworks */,
 				BCAED55727513DD400054B77 /* Resources */,
+				BCAED58C2751402C00054B77 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -253,13 +266,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BCAED58C2751402C00054B77 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BCAED55527513DD400054B77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BCAED56127513DD500054B77 /* ViewController.swift in Sources */,
+				BCAED5922755266600054B77 /* Queue.swift in Sources */,
+				BCAED59027551A5100054B77 /* Stack.swift in Sources */,
 				BCAED55D27513DD500054B77 /* AppDelegate.swift in Sources */,
+				BCAED58E2752618F00054B77 /* Linkedlist.swift in Sources */,
+				BCAED594275534EE00054B77 /* DoubleLinkedList.swift in Sources */,
 				BCAED55F27513DD500054B77 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
