@@ -19,6 +19,9 @@
 		BCAED59027551A5100054B77 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAED58F27551A5000054B77 /* Stack.swift */; };
 		BCAED5922755266600054B77 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAED5912755266600054B77 /* Queue.swift */; };
 		BCAED594275534EE00054B77 /* DoubleLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAED593275534EE00054B77 /* DoubleLinkedList.swift */; };
+		BCAED5962756811800054B77 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAED5952756811800054B77 /* Tree.swift */; };
+		BCAED5982757CAC500054B77 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAED5972757CAC500054B77 /* BinaryTree.swift */; };
+		BCAED59A27591AD100054B77 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAED59927591AD100054B77 /* BinarySearchTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		BCAED58F27551A5000054B77 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		BCAED5912755266600054B77 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		BCAED593275534EE00054B77 /* DoubleLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleLinkedList.swift; sourceTree = "<group>"; };
+		BCAED5952756811800054B77 /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		BCAED5972757CAC500054B77 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		BCAED59927591AD100054B77 /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,9 @@
 				BCAED593275534EE00054B77 /* DoubleLinkedList.swift */,
 				BCAED58F27551A5000054B77 /* Stack.swift */,
 				BCAED5912755266600054B77 /* Queue.swift */,
+				BCAED5952756811800054B77 /* Tree.swift */,
+				BCAED5972757CAC500054B77 /* BinaryTree.swift */,
+				BCAED59927591AD100054B77 /* BinarySearchTree.swift */,
 				BCAED56227513DD500054B77 /* Main.storyboard */,
 				BCAED56527513DD600054B77 /* Assets.xcassets */,
 				BCAED56727513DD600054B77 /* LaunchScreen.storyboard */,
@@ -295,7 +304,10 @@
 				BCAED5922755266600054B77 /* Queue.swift in Sources */,
 				BCAED59027551A5100054B77 /* Stack.swift in Sources */,
 				BCAED55D27513DD500054B77 /* AppDelegate.swift in Sources */,
+				BCAED59A27591AD100054B77 /* BinarySearchTree.swift in Sources */,
 				BCAED58E2752618F00054B77 /* Linkedlist.swift in Sources */,
+				BCAED5982757CAC500054B77 /* BinaryTree.swift in Sources */,
+				BCAED5962756811800054B77 /* Tree.swift in Sources */,
 				BCAED594275534EE00054B77 /* DoubleLinkedList.swift in Sources */,
 				BCAED55F27513DD500054B77 /* SceneDelegate.swift in Sources */,
 			);
