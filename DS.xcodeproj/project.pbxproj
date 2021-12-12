@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC16F5A8276518C50015F97F /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC16F5A7276518C50015F97F /* Heap.swift */; };
+		BC3A2C502763ACDD00987355 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A2C4F2763ACDD00987355 /* Graph.swift */; };
 		BCAED55D27513DD500054B77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAED55C27513DD500054B77 /* AppDelegate.swift */; };
 		BCAED55F27513DD500054B77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAED55E27513DD500054B77 /* SceneDelegate.swift */; };
 		BCAED56127513DD500054B77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAED56027513DD500054B77 /* ViewController.swift */; };
@@ -22,6 +24,7 @@
 		BCAED5962756811800054B77 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAED5952756811800054B77 /* Tree.swift */; };
 		BCAED5982757CAC500054B77 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAED5972757CAC500054B77 /* BinaryTree.swift */; };
 		BCAED59A27591AD100054B77 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAED59927591AD100054B77 /* BinarySearchTree.swift */; };
+		BCAED59C275A9F1100054B77 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAED59B275A9F1100054B77 /* Sorting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC16F5A7276518C50015F97F /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		BC3A2C4F2763ACDD00987355 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		BCAED55927513DD500054B77 /* DS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCAED55C27513DD500054B77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCAED55E27513DD500054B77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +68,7 @@
 		BCAED5952756811800054B77 /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		BCAED5972757CAC500054B77 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		BCAED59927591AD100054B77 /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
+		BCAED59B275A9F1100054B77 /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,9 @@
 				BCAED5952756811800054B77 /* Tree.swift */,
 				BCAED5972757CAC500054B77 /* BinaryTree.swift */,
 				BCAED59927591AD100054B77 /* BinarySearchTree.swift */,
+				BCAED59B275A9F1100054B77 /* Sorting.swift */,
+				BC3A2C4F2763ACDD00987355 /* Graph.swift */,
+				BC16F5A7276518C50015F97F /* Heap.swift */,
 				BCAED56227513DD500054B77 /* Main.storyboard */,
 				BCAED56527513DD600054B77 /* Assets.xcassets */,
 				BCAED56727513DD600054B77 /* LaunchScreen.storyboard */,
@@ -300,11 +309,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC3A2C502763ACDD00987355 /* Graph.swift in Sources */,
+				BC16F5A8276518C50015F97F /* Heap.swift in Sources */,
 				BCAED56127513DD500054B77 /* ViewController.swift in Sources */,
 				BCAED5922755266600054B77 /* Queue.swift in Sources */,
 				BCAED59027551A5100054B77 /* Stack.swift in Sources */,
 				BCAED55D27513DD500054B77 /* AppDelegate.swift in Sources */,
 				BCAED59A27591AD100054B77 /* BinarySearchTree.swift in Sources */,
+				BCAED59C275A9F1100054B77 /* Sorting.swift in Sources */,
 				BCAED58E2752618F00054B77 /* Linkedlist.swift in Sources */,
 				BCAED5982757CAC500054B77 /* BinaryTree.swift in Sources */,
 				BCAED5962756811800054B77 /* Tree.swift in Sources */,
