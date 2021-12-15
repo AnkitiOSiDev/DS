@@ -14,7 +14,7 @@ struct Stack<T> {
         storage.append(value)
     }
     
-    mutating func pop() -> T? {
+   @discardableResult mutating func pop() -> T? {
         storage.popLast()
     }
     
